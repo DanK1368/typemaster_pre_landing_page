@@ -1,0 +1,11 @@
+@use "../abstracts" as *;
+
+.container {
+  @include grid-12();
+  width: 100%;
+  max-width: 1200px;
+  padding-top: 5rem;
+  overflow-x: hidden;
+  place-content: center;
+  margin: auto;
+}

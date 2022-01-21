@@ -1,0 +1,38 @@
+@use "../abstracts" as *;
+
+.gallery {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: (10%, 1fr, 1fr);
+  gap: 2rem;
+  margin-right: 3rem;
+  padding: 6rem 0;
+
+  &__icon {
+    display: none;
+
+    @include lg {
+      display: block;
+      grid-column: 1;
+      transform: translateX(-100px);
+      width: 100%;
+      align-self: flex-end;
+    }
+  }
+
+  &__container-1 {
+    grid-column: 1 / 1;
+
+    @include lg {
+      grid-column: 2/2;
+    }
+  }
+
+  &__container-2 {
+    grid-column: 2 / 4;
+
+    @include lg {
+      grid-column: 3/4;
+    }
+  }
+}

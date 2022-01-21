@@ -1,0 +1,11 @@
+@use "../abstracts" as *;
+
+.footer {
+  grid-column: 1 / -1;
+  @include flex(row, center, center);
+  min-height: 20vh;
+
+  @include md {
+    min-height: 10vh;
+  }
+}

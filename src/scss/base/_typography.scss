@@ -1,0 +1,42 @@
+@use "../abstracts" as *;
+@use "../base/reset";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $main-font;
+}
+
+.heading-1 {
+  font-size: $header1;
+  line-height: $line-height-h1;
+  font-weight: $font-weight-extra-bold;
+  padding: 2rem 0rem;
+}
+
+.heading-2 {
+  font-size: $header2;
+  line-height: $line-height-h2;
+  font-weight: $font-weight-extra-bold;
+}
+
+.heading-3 {
+  font-size: $header3;
+  line-height: $line-height-h3;
+  font-weight: $font-weight-extra-bold;
+}
+
+p {
+  font-size: $main-text;
+  color: $secondary-light-color;
+  font-weight: $font-weight-medium;
+  line-height: $line-height-p;
+}
+
+h1,
+h2,
+h3 {
+  color: $secondary-color;
+}

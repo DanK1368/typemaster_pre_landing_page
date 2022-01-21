@@ -1,0 +1,44 @@
+# Frontend Mentor - Typemaster pre-launch landing page solution
+
+This is a solution to the [Typemaster pre-launch landing page challenge on Frontend Mentor](). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout depending on their device's screen size
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+### Built with
+
+- Semantic HTML5 markup
+- SASS with partials
+- CSS Grid
+- Mobile-first workflow
+
+### What I learned
+
+Setting up a Grid structure to allign the different components.
+In this challenge I also tried to incorporate a proper SASS structure. Although I am not quite sure if I have overdone for a small proje t like this, I thought it would be nice to practice it already.
+
+I tried to set up partials based on the 7-1 file structure. It was also great to practice the new @use and @forward functions, since Ive only used @import before.
+
+I've learned to use a small map for my breakpoints and incorporate their values in a few mixins which I used for the reponsive designs.
+
+### Continued development
+
+I realized that I need to get better with the SASS file structure. Although I worked on a mobile first approach, I realized that looking at the desktop version will help in visualizing how to structure your HTML file accordingly. So it will become easier to position items later on as you transition to bigger screens.

@@ -1,0 +1,25 @@
+// Font Sizes
+
+$header1: 4.8rem;
+$header2: 3.2rem;
+$header3: 2.4rem;
+$main-text: 1.6rem;
+
+// Main Font-Face
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;700;800;900&display=swap");
+
+$main-font: "Barlow", sans-serif;
+
+// Font Weights
+
+$font-weight-extra-bold: 900;
+$font-weight-bold: 700;
+$font-weight-medium: 500;
+
+// Line Heights
+
+$line-height-h1: 5rem;
+$line-height-h2: 3.5rem;
+$line-height-h3: 3rem;
+$line-height-p: 2.5rem;
